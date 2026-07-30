@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probes of https://lendtable.com
+host: https://lendtable.com
+note: >-
+  No /.well-known/ discovery surface is served. The origin is disabled — every path on
+  lendtable.com (including the document root) returns HTTP 402 with the body
+  "Payment required / DEPLOYMENT_DISABLED", so these are host-level failures rather than
+  per-document 404s. No document was retrieved; nothing was saved. Re-probe if the
+  domain is ever redeployed.
+documents:
+- path: /.well-known/security.txt
+  status: 402
+- path: /.well-known/openid-configuration
+  status: 402
+- path: /.well-known/oauth-authorization-server
+  status: 402
+- path: /.well-known/api-catalog
+  status: 402
+- path: /.well-known/ai-plugin.json
+  status: 402
+- path: /llms.txt
+  status: 402
+- path: /robots.txt
+  status: 402
