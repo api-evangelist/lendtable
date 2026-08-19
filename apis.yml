@@ -34,7 +34,7 @@ x-status: defunct
 x-status-evidence: 'https://lendtable.com/ returns HTTP 402 DEPLOYMENT_DISABLED (probed 2026-07-19); last
   Internet Archive 200 capture 2024-12-06, first 402 capture 2025-02-20; iOS App Store listing 404'
 x-has-api: false
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
