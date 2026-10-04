@@ -50,7 +50,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Consumer Lending
 - Retirement
@@ -70,6 +70,7 @@ tags_raw:
 - Employee Benefits
 - Personal Finance
 - Defunct
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
